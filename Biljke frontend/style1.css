@@ -1,0 +1,21 @@
+.naslov {
+
+    text-align: center;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.pretragaContainer {
+    border: 2px solid black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: fit-content;
+    width: fit-content;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.dugme{
+    grid-area: 5 / 1 / 5 / 3;
+}
