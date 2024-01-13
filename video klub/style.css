@@ -1,0 +1,63 @@
+.glavna {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.levi {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 150px;
+}
+
+.desni {
+    display: flex;
+    flex: 1 1 500px;
+    margin-left: 15px;
+}
+
+.telo {
+    display: flex;
+    width: 100%;
+}
+
+.red {
+    display: flex;
+}
+
+div[class^="prikaz"] {
+    border: 1px solid black;
+    justify-content: flex-start;
+    height: 75px;
+    margin: 5px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.police {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1 1 500px;
+}
+
+.btn {
+    align-self: flex-start;
+}
+
+.dvd {
+    background-color: aqua;
+    border-right: 1px solid black;
+}
+
+.margina {
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.oznaka {
+    display: flex;
+    flex: 1 1 200px;
+    align-items: center;
+}
