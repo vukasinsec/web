@@ -1,0 +1,27 @@
+.glavniDiv{
+    /* align-items: ; */
+}
+
+.tabela {
+
+    border: 2px solid black;
+    width: 450px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.desno {
+
+    border: 2px solid blue;
+    width: 550px;
+    float: left;
+
+}
+
+.levo {
+    border: 2px solid red;
+    float: left;
+    margin-right: 5%;
+    width: 500px;
+}
